@@ -4,7 +4,7 @@ resources:
   type: git
   source:
     uri: {{github-repository}}
-    branch: my-work
+    branch: JandN
     private_key: {{github-private-key}}
 
 - name: version
@@ -61,7 +61,7 @@ resources:
 jobs:
 - name: build
   plan:
-  - get: pal-tracker
+  - get: pal-tracker-distributed
     trigger: true
   - get: version
     params:
