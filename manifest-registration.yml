@@ -1,7 +1,7 @@
 applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
-  host: registration-pal-jn.apps.chicken.pal.pivotal.io
+  host: registration-pal-jn
   memory: 1G
   instances: 1
   env:

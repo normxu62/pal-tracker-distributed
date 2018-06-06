@@ -1,7 +1,7 @@
 applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
-  host: backlog-pal-in.apps.chicken.pal.pivotal.io
+  host: backlog-pal-jn
   memory: 1G
   instances: 1
   env:
